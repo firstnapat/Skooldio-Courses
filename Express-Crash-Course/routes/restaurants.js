@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // import data
-const restaurants = require('../../data');
+const restaurants = require('../data');
 
 let currentRestaurantId = 4
 
